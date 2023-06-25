@@ -1,0 +1,22 @@
+.table-space {
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.table-space th,
+.table-space td {
+    padding: 10px;
+}
+
+.column-space th,
+.column-space td {
+    padding-right: 20px;
+}
+
+#bottom-section {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
